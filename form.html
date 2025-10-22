@@ -63,12 +63,10 @@
                 <!-- NOME AUTORE -->
 
                 <div class="col-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nome autore</label>
-                            <input type="text" id="name" class="form-control"
-                                placeholder="Inserisci nome dell'autore">
-                        </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome autore</label>
+                        <input type="text" id="name" class="form-control" placeholder="Inserisci nome dell'autore">
+                    </div>
                 </div>
 
 
@@ -88,7 +86,7 @@
                 <div class="col-12">
                     <div class="mb-3">
                         <label for="title" class="form-label">Titolo</label>
-                        <input type="text" class="form-control" id="title" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" id="title" required
                             placeholder="Inserisci titolo del libro">
                         <div id="title" class="form-text">Titolo versione italiana</div>
                     </div>
@@ -112,8 +110,7 @@
                 <div class="col-12  col-lg-4">
                     <div class="mb-3">
                         <label for="year" class="form-label">Anno di pubblicazione</label>
-                        <input type="number" class="form-control" id="year"
-                            placeholder="Inserisci l'anno">
+                        <input type="number" class="form-control" id="year" placeholder="Inserisci l'anno">
                     </div>
                 </div>
 
@@ -124,7 +121,7 @@
                 <div class="col-12 mb-4  col-lg-4">
                     <div class="mb-3">
                         <label for="code" class="form-label">ISBN#</label>
-                        <input type="number" class="form-control" id="code"
+                        <input type="number" class="form-control" id="code" required
                             placeholder="Inserisci il codice ISBN#">
                     </div>
                 </div>
@@ -137,8 +134,8 @@
                 <div class="col-12">
                     <div class="mb-3">
                         <label for="note" class="form-label">Note</label>
-                        <textarea class="form-control" placeholder="Inserisci eventuali note sul libro"
-                            id="note" rows="3"></textarea>
+                        <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" id="note"
+                            rows="3"></textarea>
                     </div>
                 </div>
 
@@ -152,11 +149,11 @@
                         <label class="form-check-label" for="checkbox">Disponibile anche in digitale</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Aggiungi libro</button>
-                    </form>
                 </div>
 
 
             </div>
+        </div>
 
 
 
